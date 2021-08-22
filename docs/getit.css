@@ -52,9 +52,9 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 350px;
-  padding: 10px;
-  margin: 1rem 2rem 2rem 1rem;
+  width: 30%;
+  padding: .8rem;
+  margin: 2rem 0 1.5rem 0;
   border-radius: .5rem;
   box-shadow: 0 4px 10px 0 #4c4c4c;
 }
@@ -62,11 +62,108 @@ body {
 .form-card-title{
   border: 0;
   font-size: 1.2rem;
+  font-weight: bolder;
+  margin: .2rem 0;
 }
 
 .autoresize{
   border: 0;
   resize: none;
+  margin: .5rem 0;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 3rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 11%;
+  padding: .8rem;
+  margin: 1rem .2rem;
+  border-radius: .3rem;
+  box-shadow: 0 1px 10px #4c4c4c;
+}
+
+.card-title{
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-content{
+  font-size: 1rem;
+  color: #4c4c4c;
+  align-self: center;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(1deg)
+}
+
+.card-rotation-2{
+  transform: rotate(-1deg)
+}
+
+.card-rotation-3{
+  transform: rotate(2deg)
+}
+
+.card-rotation-4{
+  transform: rotate(-2deg)
+}
+
+.card-rotation-5{
+  transform: rotate(3deg)
+}
+
+.card-rotation-6{
+  transform: rotate(-3deg)
+}
+
+.card-rotation-7{
+  transform: rotate(4deg)
+}
+
+.card-rotation-8{
+  transform: rotate(-4deg)
+}
+
+.card-rotation-9{
+  transform: rotate(5deg)
+}
+
+.card-rotation-10{
+  transform: rotate(-5deg)
+}
+
+.card-rotation-11{
+  transform: rotate(0deg)
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
