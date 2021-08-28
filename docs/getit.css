@@ -33,12 +33,14 @@ body {
   justify-content: flex-start;
   align-content: space-between;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
   background-color: #f7d736;
-  box-shadow: 0 2px 15px #2c2c2c;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .logo{
-  height: 3rem;
+  height: 4rem;
   padding: .5rem;
 }
 
@@ -56,20 +58,27 @@ body {
   padding: .8rem;
   margin: 2rem 0 1.5rem 0;
   border-radius: .5rem;
-  box-shadow: 0 4px 10px 0 #4c4c4c;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 5px 4px rgba(0,0,0,0.22);
 }
 
 .form-card-title{
   border: 0;
   font-size: 1.2rem;
-  font-weight: bolder;
-  margin: .2rem 0;
+  font-weight: bold;
+  margin: .3rem 0;
+  outline: none;
+  border-color: transparent;
 }
 
 .autoresize{
   border: 0;
+  outline: none;
   resize: none;
+  border-color: transparent;
   margin: .5rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .card-container{
@@ -83,23 +92,24 @@ body {
 .card{
   display: flex;
   flex-direction: column;
-  width: 11%;
+  width: 13.5%;
   padding: .8rem;
   margin: 1rem .2rem;
   border-radius: .3rem;
-  box-shadow: 0 1px 10px #4c4c4c;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .card-title{
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
 .card-content{
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #4c4c4c;
   align-self: center;
+  margin: auto;
 }
 
 .card-color-1{
@@ -169,6 +179,10 @@ body {
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: .9rem;
+
   position: relative;
   display: block;
   padding: 10px 15px;
