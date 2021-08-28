@@ -5,7 +5,7 @@ Grupo:
 - Luiza Valezim
 - Fernando França
 - Francisco Costa
-- Link do GitHub Pages: https://luizavalezim.github.io/tecweb-2021-2-desafio-css/
+- Link do GitHub Pages: https://luizavalezim.github.io/tecweb-2021-2-desafio-css/docs
 
 ## Desafio CSS
 
